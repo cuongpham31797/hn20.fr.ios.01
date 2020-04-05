@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Calculator_Excercise_1_2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="lyZ-dQ-rEF">
+                                <rect key="frame" x="0.0" y="250" width="375" height="417"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="asD-ye-Yja">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="82"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SWe-OH-Xcz" customClass="CustomView" customModule="Calculator_Excercise_1_2" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="92.5" height="82"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i2b-sD-OIB" customClass="CustomView" customModule="Calculator_Excercise_1_2" customModuleProvider="target">
+                                                <rect key="frame" x="94.5" y="0.0" width="92" height="82"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yaD-S7-Iuz" customClass="CustomView" customModule="Calculator_Excercise_1_2" customModuleProvider="target">
+                                                <rect key="frame" x="188.5" y="0.0" width="92.5" height="82"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hTr-Bh-hxU" customClass="CustomView" customModule="Calculator_Excercise_1_2" customModuleProvider="target">
+                                                <rect key="frame" x="283" y="0.0" width="92" height="82"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="p9N-5M-BcL">
+                                        <rect key="frame" x="0.0" y="84" width="375" height="81.5"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4To-1f-8F2" customClass="CustomView" customModule="Calculator_Excercise_1_2" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="92.5" height="81.5"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NmQ-zh-Azg" customClass="CustomView" customModule="Calculator_Excercise_1_2" customModuleProvider="target">
+                                                <rect key="frame" x="94.5" y="0.0" width="92" height="81.5"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="86w-SY-rK1" customClass="CustomView" customModule="Calculator_Excercise_1_2" customModuleProvider="target">
+                                                <rect key="frame" x="188.5" y="0.0" width="92.5" height="81.5"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="asc-bX-yl5" customClass="CustomView" customModule="Calculator_Excercise_1_2" customModuleProvider="target">
+                                                <rect key="frame" x="283" y="0.0" width="92" height="81.5"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="0uS-3m-6cR">
+                                        <rect key="frame" x="0.0" y="167.5" width="375" height="82"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ejF-kO-1Bg" customClass="CustomView" customModule="Calculator_Excercise_1_2" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="92.5" height="82"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PXm-Wg-j6y" customClass="CustomView" customModule="Calculator_Excercise_1_2" customModuleProvider="target">
+                                                <rect key="frame" x="94.5" y="0.0" width="92" height="82"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bzT-w2-s0P" customClass="CustomView" customModule="Calculator_Excercise_1_2" customModuleProvider="target">
+                                                <rect key="frame" x="188.5" y="0.0" width="92.5" height="82"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="igR-EJ-0E0" customClass="CustomView" customModule="Calculator_Excercise_1_2" customModuleProvider="target">
+                                                <rect key="frame" x="283" y="0.0" width="92" height="82"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="8d4-c9-PDA">
+                                        <rect key="frame" x="0.0" y="251.5" width="375" height="81.5"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Eb1-qT-JnI" customClass="CustomView" customModule="Calculator_Excercise_1_2" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="92.5" height="81.5"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zvR-lq-CaX" customClass="CustomView" customModule="Calculator_Excercise_1_2" customModuleProvider="target">
+                                                <rect key="frame" x="94.5" y="0.0" width="92" height="81.5"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T74-2E-MJs" customClass="CustomView" customModule="Calculator_Excercise_1_2" customModuleProvider="target">
+                                                <rect key="frame" x="188.5" y="0.0" width="92.5" height="81.5"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tUd-3X-8cx" customClass="CustomView" customModule="Calculator_Excercise_1_2" customModuleProvider="target">
+                                                <rect key="frame" x="283" y="0.0" width="92" height="81.5"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="4ri-Cd-mwu">
+                                        <rect key="frame" x="0.0" y="335" width="375" height="82"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="orC-vS-T6T" customClass="ZeroView" customModule="Calculator_Excercise_1_2" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="186.5" height="82"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </view>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="VcE-uD-SrA">
+                                                <rect key="frame" x="188.5" y="0.0" width="186.5" height="82"/>
+                                                <subviews>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zpd-LL-VIp" customClass="CustomView" customModule="Calculator_Excercise_1_2" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="92.5" height="82"/>
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EXh-bh-d8o" customClass="CustomView" customModule="Calculator_Excercise_1_2" customModuleProvider="target">
+                                                        <rect key="frame" x="94.5" y="0.0" width="92" height="82"/>
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </view>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h2c-u2-7PO">
+                                <rect key="frame" x="15" y="159" width="350" height="83"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="80"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="tIH-2B-xES">
+                                <rect key="frame" x="37.5" y="89" width="300" height="40"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Vx-KP-Yyn">
+                                        <rect key="frame" x="0.0" y="0.0" width="86.5" height="40"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <state key="normal" title="Theme 1">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="onTapTheme1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hMa-cc-S4g"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FRQ-HT-fDn">
+                                        <rect key="frame" x="106.5" y="0.0" width="87" height="40"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <state key="normal" title="Theme 2">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="onTapTheme2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="trN-ci-3Ub"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aPW-GR-kUY">
+                                        <rect key="frame" x="213.5" y="0.0" width="86.5" height="40"/>
+                                        <color key="backgroundColor" red="0.47450980392156861" green="0.83921568627450982" blue="0.97647058823529409" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <state key="normal" title="Theme 3">
+                                            <color key="titleColor" red="0.90980392156862744" green="0.47843137254901957" blue="0.64313725490196072" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="onTapTheme3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OoC-CR-GJa"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="RIM-df-D4i"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="h2c-u2-7PO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="0AV-qn-iDV"/>
+                            <constraint firstItem="lyZ-dQ-rEF" firstAttribute="top" secondItem="h2c-u2-7PO" secondAttribute="bottom" constant="8" id="5Vb-oX-FXy"/>
+                            <constraint firstAttribute="trailing" secondItem="lyZ-dQ-rEF" secondAttribute="trailing" id="9fa-Xc-B6b"/>
+                            <constraint firstItem="lyZ-dQ-rEF" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="5/8" id="AIY-HE-7pb"/>
+                            <constraint firstItem="tIH-2B-xES" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.8" id="BlI-ld-iKT"/>
+                            <constraint firstItem="tIH-2B-xES" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Oxz-77-bFl"/>
+                            <constraint firstItem="h2c-u2-7PO" firstAttribute="top" secondItem="tIH-2B-xES" secondAttribute="bottom" constant="30" id="R8e-zg-6GU"/>
+                            <constraint firstItem="h2c-u2-7PO" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="1/8" id="VtJ-gb-K1x"/>
+                            <constraint firstItem="lyZ-dQ-rEF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="bg1-Fe-wtp"/>
+                            <constraint firstItem="h2c-u2-7PO" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="-10" id="vfB-gC-0FQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="lyZ-dQ-rEF" secondAttribute="bottom" id="yo2-29-4MY"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="deleteView" destination="SWe-OH-Xcz" id="Ejo-eJ-wyG"/>
+                        <outlet property="divideView" destination="hTr-Bh-hxU" id="X8t-3a-qfQ"/>
+                        <outlet property="dotView" destination="zpd-LL-VIp" id="rHt-e0-Y7Y"/>
+                        <outlet property="eightView" destination="NmQ-zh-Azg" id="NdY-AI-9gh"/>
+                        <outlet property="equalView" destination="EXh-bh-d8o" id="2Pp-nM-eyy"/>
+                        <outlet property="fiveView" destination="PXm-Wg-j6y" id="5O6-ot-o6K"/>
+                        <outlet property="fourView" destination="ejF-kO-1Bg" id="Lvg-8J-pax"/>
+                        <outlet property="mainLabel" destination="h2c-u2-7PO" id="WDH-mv-wNt"/>
+                        <outlet property="minusView" destination="igR-EJ-0E0" id="Ng8-Y6-Pwt"/>
+                        <outlet property="multiplyView" destination="asc-bX-yl5" id="15v-1a-NGg"/>
+                        <outlet property="negativeView" destination="i2b-sD-OIB" id="T2u-gr-HIg"/>
+                        <outlet property="nineView" destination="86w-SY-rK1" id="xfY-AS-7v2"/>
+                        <outlet property="oneView" destination="Eb1-qT-JnI" id="3YX-ih-WDh"/>
+                        <outlet property="percentView" destination="yaD-S7-Iuz" id="dEu-xE-wLN"/>
+                        <outlet property="plusView" destination="tUd-3X-8cx" id="PzC-GV-oHU"/>
+                        <outlet property="sevenView" destination="4To-1f-8F2" id="a5N-UA-rGh"/>
+                        <outlet property="sixView" destination="bzT-w2-s0P" id="jPB-rz-Jyx"/>
+                        <outlet property="theme1Button" destination="0Vx-KP-Yyn" id="6wJ-Lh-8On"/>
+                        <outlet property="theme2Button" destination="FRQ-HT-fDn" id="EyO-8z-OID"/>
+                        <outlet property="theme3Button" destination="aPW-GR-kUY" id="GW0-gW-hPE"/>
+                        <outlet property="threeVIew" destination="T74-2E-MJs" id="dtc-xO-NOq"/>
+                        <outlet property="twoView" destination="zvR-lq-CaX" id="62e-Qq-Jlo"/>
+                        <outlet property="zeroView" destination="orC-vS-T6T" id="TV2-qM-3TB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="128.98550724637681" y="113.16964285714285"/>
+        </scene>
+    </scenes>
+</document>
