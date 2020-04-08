@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="ThirdTypeCell" customModule="TableVIew_PickerVIew_DateTime" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="01:00 SA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aWV-FE-O19">
+                        <rect key="frame" x="220" y="11.5" width="80" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="KUP-js-tcC"/>
+                            <constraint firstAttribute="width" constant="80" id="dk9-KB-Hd1"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="May 21, 2019" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xg2-AW-5Xd">
+                        <rect key="frame" x="107" y="11.5" width="106" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="Ukd-ip-eUW"/>
+                            <constraint firstAttribute="width" constant="106" id="Zbf-vd-xEg"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="aWV-FE-O19" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="c3m-b7-SbB"/>
+                    <constraint firstItem="Xg2-AW-5Xd" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="jZW-PE-pKe"/>
+                    <constraint firstItem="Xg2-AW-5Xd" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="pxL-wE-eis"/>
+                    <constraint firstAttribute="trailing" secondItem="aWV-FE-O19" secondAttribute="trailing" constant="20" id="r0B-Gq-a2P"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="dateLabel" destination="Xg2-AW-5Xd" id="Uab-f6-95J"/>
+                <outlet property="timeLabel" destination="aWV-FE-O19" id="hz4-cs-ac3"/>
+            </connections>
+            <point key="canvasLocation" x="124.6376811594203" y="91.741071428571431"/>
+        </tableViewCell>
+    </objects>
+</document>
