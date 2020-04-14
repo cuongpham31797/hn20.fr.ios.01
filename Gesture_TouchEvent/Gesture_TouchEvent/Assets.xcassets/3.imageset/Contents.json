@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "david-de-gea-3840x2160-footballer-spanish-manchester-united-4k-10356.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
